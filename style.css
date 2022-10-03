@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  text-align: center;
+  padding: 2% 0;
+  color: #fff;
+  background-image: linear-gradient(to right, steelblue, green);
+  margin-bottom: 100px;
+}
+.part {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 130px;
+  width: 150px;
+  background-image: linear-gradient(
+    to right,
+    rgb(135, 157, 175),
+    rgb(119, 165, 119)
+  );
+  border: 1px solid #000;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  margin-right: 20px;
+}
+
+h1 {
+  font-size: 50px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  color: red;
+}
+p {
+  margin-top: -15px;
+  font-size: 24px;
+}
